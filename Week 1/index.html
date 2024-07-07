@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Chess</title>
+        <link rel="icon" href="static/images/logo.jpg" type="image/x-icon">
+        <link rel="stylesheet" href="styles.css" />
+    </head>
+    <body>
+        <header>
+            <nav>
+                <ul>
+                    <li><a href="#overview">Overview</a></li>
+                    <li><a href="#highlights">Highlights</a></li>
+                    <li>
+                        <img
+                            class="logo"
+                            src="static/images/logo.jpg"
+                            alt="logo"
+                        />
+                    </li>
+                    <li><a href="#get-start">Getting Started</a></li>
+                    <li><a href="#play">Try it Yourself</a></li>
+                </ul>
+            </nav>
+        </header>
+        <main>
+            <div id="overview">
+                <h1>Chess</h1>
+                <p>
+                    Chess is a two-player strategy board game that has been
+                    played for centuries, originating in India around the 6th
+                    century. The game is played on an 8x8 grid with each player
+                    controlling 16 pieces: King, Queen, Rooks, Knights, Bishops,
+                    and Pawns, each with unique movements. The objective is to
+                    checkmate the opponent's king, meaning it is under threat of
+                    capture with no legal moves to escape. Chess involves
+                    strategic planning, tactical maneuvers, and deep thinking,
+                    making it a timeless and intellectually stimulating game
+                    enjoyed by millions worldwide.
+                </p>
+            </div>
+
+            <div class="slider">
+                <div><button class="prev" onclick="prevSlide()">&#10094</button></div>
+                <div><button class="next" onclick="nextSlide()">&#10095</button></div>
+                <div class="slide">
+                    <img
+                    class="sliding-img"
+                    src="static/images/img1.png"
+                    alt="Deep Blue vs Kasparov"
+                    />
+                </div>
+                <div class="slide">
+                    <img
+                        class="sliding-img"
+                        src="static/images/img2.jpg"
+                        alt="Kasparov vs Karpov"
+                    />
+                </div>
+                <div class="slide">
+                    <img
+                        class="sliding-img"
+                        src="static/images/img3.jpg"
+                        alt="Vishwanathan Anand vs Garry Kasparov"
+                        />
+                    </div>
+                </div>
+
+            <div id="Highlights">
+                <h2>Highlights</h2>
+                <ul>
+                    <li><h3>Deep Blue vs. Garry Kasparov (1997)</h3>
+                        This was the first time a computer defeated a reigning world champion under standard chess tournament time controls.</li>
+                        <li?><h3>Vishwanathan Anand vs. Garry Kasparov (2006)</h3>
+                        The 2006 edition of the world championship was won by Vishwanathan Anand, who defeated Garry Kasparov in a 1.5-1 draw.</li>
+                        <li><h3>Kasparov vs. Karpov (2012)</h3>
+                        The 2012 edition of the world championship was won by Karpov, who defeated Kasparov in a 1.5-1 draw.</li>
+                </ul>
+            </div>
+            <div id="get-start">
+                <h2>Getting Started</h2>
+                <p>
+                    To begin playing chess, follow these simple steps:
+                    <ol>
+                        <li><strong>Learn the rules: </strong>Set up the board, learn how to move the pieces, and understand special rules. You can also learn who makes the first move and how to win.</li>
+                        <li><strong>Watch videos:</strong> You can watch tutorials on YouTube or Chess4Life to learn how to play.</li>
+                        <li><strong>Practice: </strong>Play against a computer or another person to get familiar with the game. You can also try practice games with someone who knows chess better than you.</li>
+                        <li><strong>Review your mistakes: </strong>After each match, try to study your mistakes and improve your game. </li>
+                    </ol>
+                </p>
+            </div>
+            <div id="play">
+                <h2>Try it Yourself</h2>
+                <iframe src="https://fritz.chessbase.com"></iframe>
+            </div>
+            <button id="myBtn" onclick="toTop()" title="Back to Top">↑</button>
+
+
+        </main>
+        <script src="index.js"></script>
+    </body>
+</html>
