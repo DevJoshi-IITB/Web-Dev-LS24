@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/Web-Dev-LS24/static/css/main.e20f53b3.css",
+    "main.js": "/Web-Dev-LS24/static/js/main.e4b68938.js",
+    "index.html": "/Web-Dev-LS24/index.html",
+    "main.e20f53b3.css.map": "/Web-Dev-LS24/static/css/main.e20f53b3.css.map",
+    "main.e4b68938.js.map": "/Web-Dev-LS24/static/js/main.e4b68938.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e20f53b3.css",
+    "static/js/main.e4b68938.js"
+  ]
+}
